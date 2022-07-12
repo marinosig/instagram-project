@@ -5,6 +5,8 @@
 
 .htmlicon, .htmltitle {
 	float: left;
+	text-align: center;
+
 }
 
 .threepoints {
@@ -13,10 +15,9 @@
 
 .container {
 	width: 400px;
-	position: absolute;
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	margin: auto;
+	background-color: white;
+	
 }
 
 .comments, .liked_by {
@@ -24,6 +25,44 @@
 }
 
 @font-face {
-	font-family: ;
-	src: url();
+	font-family: "Roboto";
+	src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+body {
+font-family: "Roboto";
+background-color: black;
+
+}
+
+#iconleft {
+	float: left;
+	font-size: 25px;
+	width: 30px;
+}
+
+#iconright {
+	float: right;
+	font-size: 25px;
+}
+
+#iconsize {
+	font-size: 25px;
+	width: 30px;
+	height: 30px;
+	padding: 5px 0;
+}
+
+li {
+	font-size: smaller;
+	list-style-type: none;
+
+}
+
+.html5 {
+	font-weight: bold;
+}
+
+#padding {
+	padding: 2px 8px;
 }
