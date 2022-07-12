@@ -1,51 +1,29 @@
-body {
-	margin:0;
-}
-h1 {
-	text-align:center;
-	margin:0;
-	
-}
+#div-1 { float: left; }
+#div-2 { display: inline; }
+#div-3 { float: right; }
 
-.content {
-	background-color: #C0C0C0;
+
+.htmlicon, .htmltitle {
+	float: left;
 }
 
-.post {
-	background-color:white;
-	width:400px;
-	padding-bottom: 8px;
-	padding-top: 8px;
+.threepoints {
+	float: right;
 }
 
-h2,span {
-	display:inline-flex;
-	margin:0;
+.container {
+	width: 400px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
-h2 {
-	width: 340px;
-	text-align: left;
-		
+.comments, .liked_by {
+	text-align: justify;
 }
 
-span {
-	width: 100ps;
-	font-size: small;
-	color: gray;
-	display:relative;
-
+@font-face {
+	font-family: ;
+	src: url();
 }
-
-p{
-	display:relative;
-	text-align:left;
-	padding: 5px 5px 5px 5px;
-	margin:0;
-}
-
-img {
-	padding-top: 5px;
-}
-
-
